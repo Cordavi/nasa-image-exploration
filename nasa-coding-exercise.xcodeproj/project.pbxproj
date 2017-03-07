@@ -8,24 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		2E44FEB71D98B05100E79F96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E44FEB61D98B05100E79F96 /* AppDelegate.swift */; };
-		2E44FEB91D98B05100E79F96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E44FEB81D98B05100E79F96 /* ViewController.swift */; };
 		2E44FEBC1D98B05100E79F96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E44FEBA1D98B05100E79F96 /* Main.storyboard */; };
 		2E44FEBF1D98B05100E79F96 /* nasa_coding_exercise.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E44FEBD1D98B05100E79F96 /* nasa_coding_exercise.xcdatamodeld */; };
 		2E44FEC11D98B05100E79F96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E44FEC01D98B05100E79F96 /* Assets.xcassets */; };
 		2E44FEC41D98B05100E79F96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E44FEC21D98B05100E79F96 /* LaunchScreen.storyboard */; };
 		2E44FECC1D98B07000E79F96 /* NasaAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E44FECB1D98B07000E79F96 /* NasaAPIClient.swift */; };
+		2E44FECE1D98BAC000E79F96 /* NasaPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E44FECD1D98BAC000E79F96 /* NasaPhoto.swift */; };
+		2E44FED01D98C49400E79F96 /* NasaPhotoDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E44FECF1D98C49400E79F96 /* NasaPhotoDataStore.swift */; };
+		2E44FED21D98C64D00E79F96 /* NasaPhotoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E44FED11D98C64D00E79F96 /* NasaPhotoTableViewController.swift */; };
+		2EA74FDB1D99EB90005D7229 /* NasaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EA74FDA1D99EB90005D7229 /* NasaTableViewCell.xib */; };
+		2EA74FDD1D99ED52005D7229 /* NasaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA74FDC1D99ED52005D7229 /* NasaTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2E44FEB31D98B05100E79F96 /* nasa-coding-exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nasa-coding-exercise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E44FEB61D98B05100E79F96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2E44FEB81D98B05100E79F96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2E44FEBB1D98B05100E79F96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E44FEBE1D98B05100E79F96 /* nasa_coding_exercise.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = nasa_coding_exercise.xcdatamodel; sourceTree = "<group>"; };
 		2E44FEC01D98B05100E79F96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E44FEC31D98B05100E79F96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E44FEC51D98B05100E79F96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E44FECB1D98B07000E79F96 /* NasaAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NasaAPIClient.swift; sourceTree = "<group>"; };
+		2E44FECD1D98BAC000E79F96 /* NasaPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NasaPhoto.swift; sourceTree = "<group>"; };
+		2E44FECF1D98C49400E79F96 /* NasaPhotoDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NasaPhotoDataStore.swift; sourceTree = "<group>"; };
+		2E44FED11D98C64D00E79F96 /* NasaPhotoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NasaPhotoTableViewController.swift; sourceTree = "<group>"; };
+		2EA74FDA1D99EB90005D7229 /* NasaTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NasaTableViewCell.xib; sourceTree = "<group>"; };
+		2EA74FDC1D99ED52005D7229 /* NasaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NasaTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +67,13 @@
 			isa = PBXGroup;
 			children = (
 				2E44FEB61D98B05100E79F96 /* AppDelegate.swift */,
-				2E44FEB81D98B05100E79F96 /* ViewController.swift */,
+				2E44FED11D98C64D00E79F96 /* NasaPhotoTableViewController.swift */,
+				2E44FECF1D98C49400E79F96 /* NasaPhotoDataStore.swift */,
+				2E44FECD1D98BAC000E79F96 /* NasaPhoto.swift */,
 				2E44FECB1D98B07000E79F96 /* NasaAPIClient.swift */,
 				2E44FEBA1D98B05100E79F96 /* Main.storyboard */,
+				2EA74FDA1D99EB90005D7229 /* NasaTableViewCell.xib */,
+				2EA74FDC1D99ED52005D7229 /* NasaTableViewCell.swift */,
 				2E44FEC01D98B05100E79F96 /* Assets.xcassets */,
 				2E44FEC21D98B05100E79F96 /* LaunchScreen.storyboard */,
 				2E44FEC51D98B05100E79F96 /* Info.plist */,
@@ -130,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EA74FDB1D99EB90005D7229 /* NasaTableViewCell.xib in Resources */,
 				2E44FEC41D98B05100E79F96 /* LaunchScreen.storyboard in Resources */,
 				2E44FEC11D98B05100E79F96 /* Assets.xcassets in Resources */,
 				2E44FEBC1D98B05100E79F96 /* Main.storyboard in Resources */,
@@ -143,10 +156,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E44FEB91D98B05100E79F96 /* ViewController.swift in Sources */,
+				2E44FED21D98C64D00E79F96 /* NasaPhotoTableViewController.swift in Sources */,
 				2E44FEBF1D98B05100E79F96 /* nasa_coding_exercise.xcdatamodeld in Sources */,
 				2E44FECC1D98B07000E79F96 /* NasaAPIClient.swift in Sources */,
+				2EA74FDD1D99ED52005D7229 /* NasaTableViewCell.swift in Sources */,
+				2E44FECE1D98BAC000E79F96 /* NasaPhoto.swift in Sources */,
 				2E44FEB71D98B05100E79F96 /* AppDelegate.swift in Sources */,
+				2E44FED01D98C49400E79F96 /* NasaPhotoDataStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +326,7 @@
 				2E44FECA1D98B05100E79F96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
